@@ -3,3 +3,61 @@
 	padding: 0;
 	border: 0;
 }
+
+header {
+	width: 100%;
+	height: 150px;
+	background-color: black;
+	position: fixed;
+	z-index: 10;
+	display: flex;
+	justify-content: space-between;
+}
+
+header img {
+	height: 50px;
+	padding: 45px 0px 0px 35px;
+}
+
+nav {
+	height: 150px;
+	width: 500px;
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	padding-right: 35px;
+}
+
+nav ul li {
+	display: inline;
+}
+
+nav ul a {
+	padding-left: 45px;
+	color: white;
+	text-decoration: none;
+	display: inline;
+	font-family: Raleway, sans-serif;
+	font-size: 20px;
+}
+
+nav ul a:hover {
+	text-decoration: underline;	
+}	
+
+#banner {
+	width: 100%;
+	height: 350px;
+	position: fixed;
+	top: 150px;
+	background-image: url("../img/mission2.jpg");
+	background-size: cover;
+}
+
+#content {
+	width: 100%;
+	height: 3000px;
+	position: relative;
+	top: 500px;
+	background-color: white;
+}
