@@ -39,10 +39,12 @@ nav ul a {
 	display: inline;
 	font-family: Raleway, sans-serif;
 	font-size: 20px;
+	opacity: 0.75;
 }
 
 nav ul a:hover {
-	text-decoration: underline;	
+	opacity: 1;
+	text-decoration: underline;
 }	
 
 #banner {
@@ -52,6 +54,32 @@ nav ul a:hover {
 	top: 150px;
 	background-image: url("../img/mission2.jpg");
 	background-size: cover;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+#mission {
+	height: 130px;
+	width: 1000px;
+	background-color: black;
+	opacity: 0.75;
+	border-radius: 8px;
+	text-align: center;
+}
+
+#mission h2 {
+	font-family: Raleway, sans-serif;
+	font-size: 30px;
+	color: white;
+	padding-top: 25px;
+}
+
+#mission p {
+	font-family: Raleway, sans-serif;
+	font-size: 21px;
+	color: white;
+	padding-top: 10px;
 }
 
 #content {
