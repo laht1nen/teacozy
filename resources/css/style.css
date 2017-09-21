@@ -84,8 +84,90 @@ nav ul a:hover {
 
 #content {
 	width: 100%;
-	height: 3000px;
+	height: 1500px;
 	position: relative;
 	top: 500px;
-	background-color: white;
+	background-color: #F5F5F5;
+	text-align: center;
+}
+
+#content h2 {
+	font-family: Raleway, sans-serif;
+	font-size: 30px;
+	color: black;
+	padding-top: 25px;
+}
+
+#content p {
+	font-family: Raleway, sans-serif;
+	font-size: 21px;
+	color: black;
+	padding-top: 10px;
+	padding-bottom: 25px;
+}
+
+#first-wrapper {
+	height: 247px;
+	width: 1000px;
+	margin: 0 auto;
+	text-align: center;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+.teaimg {
+	height: 200px;
+	width: 300px;
+	box-shadow: 10px 10px 5px grey;
+}
+
+.teaimgheading h3 {
+	font-family: Raleway, sans-serif;
+	font-size: 20px;
+	color: black;
+	padding-top: 20px;
+}
+
+.teaimg img {
+	height: 200px;
+	width: 300px;
+}
+
+#second-wrapper {
+	height: 247px;
+	width: 1000px;
+	margin: 20px auto;
+	text-align: center;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.teaimgsecond {
+	height: 200px;
+	width: 300px;
+	box-shadow: 10px 10px 5px grey;
+	margin-right: 25px;
+	margin-left: 25px;
+}
+
+.teaimgheadingsecond h3 {
+	font-family: Raleway, sans-serif;
+	font-size: 20px;
+	color: black;
+	padding-top: 20px;
+}
+
+.teaimgsecond img {
+	height: 200px;
+	width: 300px;
+}
+
+#locations {
+	height: 500px;
+	width: 100%;
+	margin-top: 25px;
+	background-image: url("../img/locationscover.jpg");
+	background-size: cover;
 }
