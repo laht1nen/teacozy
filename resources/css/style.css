@@ -44,7 +44,6 @@ nav ul a {
 
 nav ul a:hover {
 	opacity: 1;
-	text-decoration: underline;
 }	
 
 #banner {
@@ -103,7 +102,7 @@ nav ul a:hover {
 	font-size: 21px;
 	color: black;
 	padding-top: 10px;
-	padding-bottom: 25px;
+	padding-bottom: 25px; 
 }
 
 #first-wrapper {
@@ -127,6 +126,7 @@ nav ul a:hover {
 	font-size: 20px;
 	color: black;
 	padding-top: 20px;
+	font-weight: 400;
 }
 
 .teaimg img {
@@ -157,6 +157,7 @@ nav ul a:hover {
 	font-size: 20px;
 	color: black;
 	padding-top: 20px;
+	font-weight: 400;
 }
 
 .teaimgsecond img {
